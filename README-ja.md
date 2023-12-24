@@ -51,15 +51,25 @@
 
 #### 在庫管理システムの開発 (02/2023 - )
 
+- 社外発信
+  - [開発者の脳内リソースを食い潰さないという観点のフロントエンド設計](https://tech.buysell-technologies.com/entry/adventcalendar2023-12-19)
+
 ### BuySell Technologies (04/2021 - 02/2023) フルスタックエンジニア
 
 #### 専門査定管理システムの開発 (10/2022 - 02/2023)
 
 #### 開発合宿 WG のリーダー (06/2022 - 02/2023)
 
+- 社外発信
+  - [開発合宿の運営のすすめ -初めての開発合宿の計画から実施まで-](https://tech.buysell-technologies.com/entry/2023/03/21/000000)
+
 #### 店舗買取管理システムの開発 (05/2022 - 10/2022)
 
 #### 商品マスタ管理システムの開発 (07/2021 - 05/2022)
+
+- 社外発信
+  - [Sentry で Go の custom error を stack trace 付きで表示する](https://tech.buysell-technologies.com/entry/adventcalendar2021-12-21)
+  - [新規プロジェクトにインフラ監視ツールを導入した話](https://tech.buysell-technologies.com/entry/adventcalendar2021-12-08)
 
 #### 中古品買取の基幹システムの保守・運用 (04/2021 - 06/2021)
 
@@ -88,6 +98,8 @@ OSS 活動のリンク: https://github.com/pulls?q=author%3Akazizi55+archived%3A
   - Good First Issue ラベルのついた issue に着手
     - バグ修正
     - テスト拡充
+  - アウトプット
+    - [OSS コミットのすすめ - TypeScript ESLint を事例に](https://tech.buysell-technologies.com/entry/adventcalendar2022-12-17)
 
 ### 登壇
 
