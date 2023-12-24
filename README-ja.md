@@ -91,8 +91,8 @@ OSS 活動のリンク: https://github.com/pulls?q=author%3Akazizi55+archived%3A
 
 ### 登壇
 
-- 【GENDA x ゼスト x バイセル】フロントエンド勉強会
-  - Post Zod - Valibot の紹介 ([登壇資料](https://speakerdeck.com/kazizi55/post-zod-valibotnoshao-jie))
+- [【GENDA x ゼスト x バイセル】フロントエンド勉強会](https://buysell-technologies.connpass.com/event/274923/)
+  - [Post Zod - Valibot の紹介](https://speakerdeck.com/kazizi55/post-zod-valibotnoshao-jie)
 
 ## 学歴
 
