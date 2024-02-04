@@ -19,6 +19,7 @@ jobs:
           output_dir: pdf/
           build_html: false
           theme: pdf/theme.css
+          extend_default_theme: true
       - name: push
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
