@@ -5,11 +5,14 @@
     min-width: initial;
     max-width: 100%;
     margin: 0 auto;
-    font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
   }
 }
 
 /* General */
+
+* {
+  font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif !important;
+}
 
 .octicon {
   display: inline-block;
