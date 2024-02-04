@@ -7,17 +7,38 @@ on:
     paths:
       - README.md
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  node-version: "20.x"
+  pnpm-version: "8"
+
 jobs:
   push-pdf:
     name: push PDF
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - uses: pnpm/action-setup@v2
         with:
-          input_dir: README.md
-          output_dir: pdf/
-          build_html: false
+          version: ${{ env.pnpm-version }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.node-version }}
+          cache: "pnpm"
+      - uses: actions/cache@v3
+        id: pnpm-cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-pnpm-${{ hashFiles(format('{0}{1}', github.workspace, '/pnpm-lock.yaml')) }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+      - name: Install dependencies
+        if: steps.pnpm-cache.outputs.cache-hit != 'true'
+        run: pnpm install --frozen-lockfile --prefer-offline
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate PDF
+        run: pnpm run build:pdf
       - name: push
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -25,5 +46,3 @@ jobs:
           git add .
           git commit -m "docs: PDFの更新 【$(date '+%Y/%m/%d')】"
           git push origin main
-env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
