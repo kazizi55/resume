@@ -26,7 +26,7 @@ jobs:
         run: |
           export BRANCH_NAME="feature/update-pdf"
           git switch -c ${BRANCH_NAME}
-          git add . \
+          git add pdfs/README.pdf \
           git config --global user.email "github-actions[bot]@users.noreply.github.com" \
           git config --global user.name "github-actions[bot]" \
           git commit -m "docs: PDFの更新 【$(date '+%Y/%m/%d')】" \
