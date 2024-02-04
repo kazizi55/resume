@@ -18,6 +18,7 @@ jobs:
           input_dir: README.md
           output_dir: pdfs
           build_html: false
+          theme: pdfs/theme.css
       - name: push
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
