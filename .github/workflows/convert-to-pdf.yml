@@ -38,7 +38,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate PDF
-        run: pnpm run build:pdf
+        run: pnpm gen:pdf
       - name: push
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
