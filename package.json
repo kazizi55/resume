@@ -1,0 +1,10 @@
+{
+  "name": "resume",
+  "scripts": {
+    "gen:pdf": "md-to-pdf README.md"
+  },
+  "author": "kazizi55",
+  "dependencies": {
+    "md-to-pdf": "^5.2.4"
+  }
+}
