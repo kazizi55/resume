@@ -24,12 +24,13 @@ jobs:
       - uses: actions/checkout@v3
       - name: push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com" \
-          git config --local user.name "github-actions[bot]" \
-          git checkout -b feature/update-pdf \
+          export BRANCH_NAME="feature/update-pdf"
+          git switch -c ${BRANCH_NAME}
           git add . \
+          git config --global user.email "github-actions[bot]@users.noreply.github.com" \
+          git config --global user.name "github-actions[bot]" \
           git commit -m "docs: PDFの更新 【$(date '+%Y/%m/%d')】" \
-          git push origin feature/update-pdf
+          git push origin ${BRANCH_NAME}
   create-pr:
     name: create pr
     runs-on: ubuntu-latest
