@@ -18,7 +18,7 @@ jobs:
           input_dir: README.md
           output_dir: pdf/
           build_html: false
-          theme: pdf/theme.css
+          theme: theme.css
           extend_default_theme: true
       - name: push
         run: |
