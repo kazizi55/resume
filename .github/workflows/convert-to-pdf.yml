@@ -8,21 +8,15 @@ on:
       - "README.md"
 
 jobs:
-  build-pdf:
-    name: build PDF
+  push-pdf:
+    name: push PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_dir: README.md
           output_dir: pdfs
-  push:
-    name: push
-    runs-on: ubuntu-latest
-    needs: build-pdf
-    steps:
-      - uses: actions/checkout@v4
       - name: push
         run: |
           export BRANCH_NAME="feature/update-pdf"
@@ -34,7 +28,7 @@ jobs:
   create-pr:
     name: create pr
     runs-on: ubuntu-latest
-    needs: push
+    needs: push-pdf
     steps:
       - uses: actions/checkout@v3
       - name: create-pr
