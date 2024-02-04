@@ -37,7 +37,6 @@ jobs:
             -a kazizi55 \
             -H origin/${{env.BRANCH_NAME}} \
             --fill-first \
-            -b "PDFを最新化しました。表示崩れがなければマージしてください。" \
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   BRANCH_NAME: feature/update-pdf
