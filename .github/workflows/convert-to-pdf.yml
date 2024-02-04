@@ -19,13 +19,12 @@ jobs:
           output_dir: pdfs
       - name: push
         run: |
-          export BRANCH_NAME="feature/update-pdf"
-          git switch -c ${BRANCH_NAME}
+          git switch -c ${{env.BRANCH_NAME}}
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add .
           git commit -m "docs: PDFの更新 【$(date '+%Y/%m/%d')】"
-          git push origin ${BRANCH_NAME}
+          git push origin ${{env.BRANCH_NAME}}
   create-pr:
     name: create pr
     runs-on: ubuntu-latest
@@ -37,6 +36,8 @@ jobs:
           gh pr create \
             -a kazizi55 \
             --fill-first \
+            --base ${{env.BRANCH_NAME}} \
             -b "PDFを最新化しました。表示崩れがなければマージしてください。" \
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  BRANCH_NAME: feature/update-pdf
