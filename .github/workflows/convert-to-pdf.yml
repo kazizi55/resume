@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "README.md"
+      - README.md
 
 jobs:
   push-pdf:
@@ -17,6 +17,7 @@ jobs:
         with:
           input_dir: README.md
           output_dir: pdfs
+          build_html: false
       - name: push
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
