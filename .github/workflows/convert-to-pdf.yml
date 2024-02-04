@@ -1,0 +1,19 @@
+name: Docs to PDF
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+
+jobs:
+  convert-to-pdf:
+    name: Convert to PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_dir: README.md
+          output_dir: pdfs
