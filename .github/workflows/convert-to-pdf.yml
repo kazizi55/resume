@@ -35,7 +35,7 @@ jobs:
         run: |
           gh pr create \
             -a kazizi55 \
-            -H ${{env.BRANCH_NAME}} \
+            -H origin/${{env.BRANCH_NAME}} \
             --fill-first \
             -b "PDFを最新化しました。表示崩れがなければマージしてください。" \
 env:
