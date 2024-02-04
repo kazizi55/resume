@@ -35,7 +35,7 @@ jobs:
         run: |
           gh pr create \
             -a kazizi55 \
-            -H origin/${{env.BRANCH_NAME}} \
+            -H ${{env.BRANCH_NAME}} \
             --fill-first \
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
