@@ -15,6 +15,6 @@ jobs:
       - name: create-issue
         run: |
           gh issue create \
-            -a nissy-dev \
+            -a kazizi55 \
             -b "四半期が経過しました！忘れないうちに、この期間に取り組んだことを職務経歴書に反映してください。" \
             -t "職務経歴書の更新 【$(date '+%Y/%m/%d')】"
