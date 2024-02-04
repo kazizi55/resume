@@ -37,6 +37,9 @@ jobs:
         run: pnpm install --frozen-lockfile --prefer-offline
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # NOTE: 日本語フォントがLinuxにインストールされていないのでインストールする
+      - name: Install fonts-noto
+        run: sudo apt install fonts-noto
       - name: Generate PDF
         run: pnpm gen:pdf
       - name: push

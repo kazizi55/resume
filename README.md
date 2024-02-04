@@ -1,30 +1,3 @@
----
-stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css
-body_class: markdown-body
-pdf_options:
-  format: A4
-  margin: 30mm 20mm
-  displayHeaderFooter: true
-  headerTemplate: |-
-    <style>
-      section {
-        margin: 0 auto;
-        font-family: system-ui;
-        font-size: 11px;
-      }
-    </style>
-    <section>
-      <span class="date"></span>
-    </section>
-  footerTemplate: |-
-    <section>
-      <div>
-        Page <span class="pageNumber"></span>
-        of <span class="totalPages"></span>
-      </div>
-    </section>
----
-
 # 職務経歴書
 
 ## 内容
