@@ -8,8 +8,8 @@ on:
       - "README.md"
 
 jobs:
-  convert-to-pdf:
-    name: Convert to PDF
+  build-pdf:
+    name: build PDF
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -17,3 +17,29 @@ jobs:
         with:
           input_dir: README.md
           output_dir: pdfs
+  push:
+    name: push
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com" \
+          git config --local user.name "github-actions[bot]" \
+          git checkout -b feature/update-pdf \
+          git add . \
+          git commit -m "docs: PDFの更新 【$(date '+%Y/%m/%d')】" \
+          git push origin feature/update-pdf
+  create-pr:
+    name: create pr
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: create-pr
+        run: |
+          gh pr create \
+            -a kazizi55 \
+            -f \
+            -b "PDFを最新化しました。表示崩れがなければマージしてください。" \
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
