@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "scripts": {
-    "gen:pdf": "md-to-pdf README.md --body-class markdown-body --stylesheet https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css"
+    "gen:pdf": "md-to-pdf pdf/README-short.md --body-class markdown-body"
   },
   "author": "kazizi55",
   "dependencies": {
