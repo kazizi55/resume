@@ -5,6 +5,7 @@
 - [基本情報](#基本情報)
 - [職務要約](#職務要約)
 - [職務経歴](#職務経歴)
+- [自己PR](#自己PR)
 - [業務外活動](#業務外活動)
 - [スキル](#スキル)
 - [学歴](#学歴)
@@ -16,12 +17,12 @@
 | -------------- | ----------------------------------------- |
 | 氏名           | 飯島 和弥 (Kazuya Iijima)                 |
 | 居住地         | 東京都                                    |
-| メールアドレス | kaz.redhot1201@gmail.com                  |
+| メールアドレス | <kaz.redhot1201@gmail.com>                |
 | GitHub         | [＠kazizi55](https://github.com/kazizi55) |
 | Twitter        | [@kazizi55](https://twitter.com/kazizi55) |
 | Zenn           | [@kazizi55](https://zenn.dev/kazizi55)    |
-| SpeakerDeck    | https://speakerdeck.com/kazizi55          |
-| LeetCode       | https://leetcode.com/kazizi55/            |
+| SpeakerDeck    | <https://speakerdeck.com/kazizi55>        |
+| LeetCode       | <https://leetcode.com/kazizi55/>          |
 
 ## 職務要約
 
@@ -304,13 +305,27 @@ BuySell Technologies ではこれまで開発合宿が一度も開催された�
 - フロントエンド・バックエンドの機能実装
 - コードレビュー
 
+## 自己PR
+
+プロダクト品質を高く保ちながら迅速にチーム開発を行うことに意識を高く持っています。
+
+株式会社 BuySell Technologies での在庫管理システムのフロントエンド開発では、以下の工夫をしていました。
+
+- plugin とカスタムルールをふんだんに盛り込んだ Linter と Formatter を CI に組み込む
+- 単体テストを基本書くようにし、CI に組み込む
+- VRT を CI に組み込む
+- ページの開発に必要なファイル群をコマンド 1 発で生成できるように
+- メンバーと議論してコーディングガイドを制定し、ガイドに沿っていないものは基本レビューしない方針にする
+
+これにより、ジョインしたてのインターン生でもすぐにルールに沿ったコードを書くことができるようになり、その PR を見るレビュー工数も毎回 5〜10 分程度で賄えていました。
+
 ## 業務外活動
 
 ### OSS 活動
 
 コミュニティへの貢献や技術的関心、さらに世界中のエンジニアと関わりたい思いから、いくつかの OSS にコントリビュートしています。
 
-OSS 活動のリンク: https://github.com/pulls?q=author%3Akazizi55+archived%3Afalse+-org%3Akazizi55+
+OSS 活動のリンク: <https://github.com/pulls?q=author%3Akazizi55+archived%3Afalse+-org%3Akazizi55+>
 
 - [Valibot](https://valibot.dev/)
   - email メソッドなどのバグ修正
