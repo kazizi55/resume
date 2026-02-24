@@ -428,9 +428,9 @@ OSS Activity Link: <https://github.com/pulls?q=author%3Akazizi55+archived%3Afals
 | Years of Experience | Skill                               |
 | ------------------- | ----------------------------------- |
 | 0-1 Years           | Vue, Python                         |
-| 1-2 Years           | Ruby on Rails, Go, GraphQL          |
+| 1-2 Years           | Ruby on Rails, GraphQL              |
 | 2-3 Years           | GCP, Terraform, Next.js, PostgreSQL |
-| 3-4 Years           | TypeScript, JavaScript, React       |
+| 5 Years             | TypeScript, JavaScript, React, Go   |
 
 #### Notes
 

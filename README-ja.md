@@ -428,9 +428,9 @@ OSS 活動のリンク: <https://github.com/pulls?q=author%3Akazizi55+archived%3
 | 経験年数 | スキル                              |
 | -------- | ----------------------------------- |
 | 0-1 年   | Vue、Python                         |
-| 1-2 年   | Ruby On Rails、Go、GraphQL          |
+| 1-2 年   | Ruby On Rails、GraphQL              |
 | 2-3 年   | GCP、Terraform、Next.js、PostgreSQL |
-| 3-4 年   | TypeScript、JavaScript、React       |
+| 5 年     | TypeScript、JavaScript、React、Go   |
 
 #### 備考
 
