@@ -1,463 +1,463 @@
-# 職務経歴書
+# Resume
 
-## 内容
+## Table of Contents
 
-- [基本情報](#基本情報)
-- [職務要約](#職務要約)
-- [職務経歴](#職務経歴)
-- [自己 PR](#自己PR)
-- [業務外活動](#業務外活動)
-- [スキル](#スキル)
-- [学歴](#学歴)
-- [性格](#性格)
+- [Basic Information](#basic-information)
+- [Executive Summary](#executive-summary)
+- [Work Experience](#work-experience)
+- [Key Strengths](#key-strengths)
+- [Extracurricular Activities](#extracurricular-activities)
+- [Skills](#skills)
+- [Education](#education)
+- [Personality](#personality)
 
-## 基本情報
+## Basic Information
 
-| 項目           | 詳細                                      |
-| -------------- | ----------------------------------------- |
-| 氏名           | 飯島 和弥 (Kazuya Iijima)                 |
-| 居住地         | 東京都                                    |
-| メールアドレス | <kaz.redhot1201@gmail.com>                |
-| GitHub         | [＠kazizi55](https://github.com/kazizi55) |
-| Twitter        | [@kazizi55](https://twitter.com/kazizi55) |
-| Zenn           | [@kazizi55](https://zenn.dev/kazizi55)    |
-| SpeakerDeck    | <https://speakerdeck.com/kazizi55>        |
-| LeetCode       | <https://leetcode.com/kazizi55/>          |
+| Item        | Detail                                    |
+| ----------- | ----------------------------------------- |
+| Name        | Kazuya Iijima                             |
+| Location    | Tokyo, Japan                              |
+| Email       | <kaz.redhot1201@gmail.com>                |
+| GitHub      | [@kazizi55](https://github.com/kazizi55)  |
+| Twitter     | [@kazizi55](https://twitter.com/kazizi55) |
+| Zenn        | [@kazizi55](https://zenn.dev/kazizi55)    |
+| SpeakerDeck | <https://speakerdeck.com/kazizi55>        |
+| LeetCode    | <https://leetcode.com/kazizi55/>          |
 
-## 職務要約
+## Executive Summary
 
-2024 年 7 月からフルスタックエンジニアとして、株式会社 Money Forward で会計サービス周りのシステム開発に従事しています。
-2021 年 4 月から 2023 年 2 月までフルスタックエンジニアとして、2023 年 2 月から 2024 年 6 月までフロントエンドリードとして、株式会社 BuySell Technologies でリユースプラットフォームのプロダクト群のシステム開発に従事しました。
+I have been working as a Full Stack Engineer at Money Forward, Inc. since July 2024, engaged in system development for accounting services.
+Previously, I worked at BuySell Technologies Co., Ltd. from April 2021 to February 2023 as a Full Stack Engineer, and from February 2023 to June 2024 as a Frontend Lead, focusing on system development for a suite of reuse platform products.
 
-## 職務経歴
+## Work Experience
 
-### 2024 年 7 月〜 / 株式会社 Money Forward (正社員)
+### July 2024 - Present / Money Forward, Inc. (Full-time)
 
-#### 2024 年 11 月〜 / 会計周辺システムの新規開発
+#### November 2024 - Present / New Development of Accounting Peripheral Systems
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                                                                                                                |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 期間       | 2024 年 11 月〜 
-| 担当役割   | フルスタックエンジニア                                                                                                                |
-| チーム規模 | 8〜10 人                                                                                           |
-| 利用技術   | React、TypeScript、React Router V7、Go (gRPC server)、Kafka、CircleCI、AWS |
-| コミュニケーション言語 | 英語、日本語 |
+| Item      | Detail                                                                     |
+| --------- | -------------------------------------------------------------------------- |
+| Period    | November 2024 - Present                                                    |
+| Role      | Full Stack Engineer                                                        |
+| Team Size | 8 - 10 members                                                             |
+| Stack     | React, TypeScript, React Router V7, Go (gRPC server), Kafka, CircleCI, AWS |
+| Languages | English, Japanese                                                          |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンド/バックエンド/インフラの設計・機能実装
-  - 技術選定
-  - 開発基盤用意
-  - 機能開発の要求や仕様の整理・設計・実装
-  - DX(Developer Experience)向上
-    - CI / CD の整備
-    - ローカル開発環境の整備
-- サブマネージャーとしてマネジメント
-  - タスク作成・アサイン
-  - 課題の発見・優先順位づけ
-  - スクラムイベントの主導
-- コードレビュー
-- ブランチ戦略含めた開発フローの設計・改善
-- リファクタリング
-- パフォーマンス改善
-- エンジニア採用 (インターン)
-- 英語が不慣れな日本人メンバーの教育・サポート
+- Design and implementation of Frontend/Backend/Infrastructure features
+  - Technology selection
+  - Setting up development infrastructure
+  - Requirements gathering, specification design, and implementation of features
+  - Improving Developer Experience (DX)
+    - CI/CD setup and maintenance
+    - Local development environment setup
+- Management as a Sub-Manager
+  - Task creation and assignment
+  - Issue identification and prioritization
+  - Leading Scrum events
+- Code Review
+- Designing and improving development workflows, including branching strategies
+- Refactoring
+- Performance Improvement
+- Engineer Hiring (Interns)
+- Training and support for Japanese members less familiar with English
 
-##### 主な実績
+##### Key Achievements
 
-フロントエンド・バックエンドの技術選定・ディレクトリ構成・コーディングルール制定を主導しました。また、外国人メンバーが複数ジョインしたため、MTG含むチーム内コミュニケーションは基本的に英語で行っています。
+Led the technology selection, directory structure design, and coding rule establishment for both frontend and backend. Additionally, as several international members joined the team, I primarily facilitated team communication, including meetings, in English.
 
-#### 2024 年 7 月〜 2024 年 10 月 / 会計管理システムの改修
+#### July 2024 - October 2024 / Revamp of Accounting Management System
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                                                                                                                |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 期間       | 2024 年 7 月〜 2024 年 10 月                                                                                                                  |
-| 担当役割   | フルスタックエンジニア                                                                                                                |
-| チーム規模 | 7 人                                                                                           |
-| 利用技術   | React、TypeScript、JavaScript、Rollbar、Ruby On Rails、CircleCI、AWS |
-| コミュニケーション言語 | 英語、日本語 |
+| Item      | Detail                                                               |
+| --------- | -------------------------------------------------------------------- |
+| Period    | July 2024 - October 2024                                             |
+| Role      | Full Stack Engineer                                                  |
+| Team Size | 7 members                                                            |
+| Stack     | React, TypeScript, JavaScript, Rollbar, Ruby on Rails, CircleCI, AWS |
+| Languages | English, Japanese                                                    |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンド/バックエンド/インフラの機能実装
-  - 機能開発の要求や仕様の整理・設計・実装
-- コードレビュー
-- リファクタリング
-- パフォーマンス改善
-- リリース作業
+- Implementation of Frontend/Backend/Infrastructure features
+  - Requirements gathering, specification design, and implementation of features
+- Code Review
+- Refactoring
+- Performance Improvement
+- Release Operations
 - QA
-- ブランチ戦略含めた開発フローの設計・改善
-- エンジニア採用 (中途)
-- 英語が不慣れな日本人メンバーの教育・サポート
+- Designing and improving development workflows, including branching strategies
+- Engineer Hiring (Mid-career)
+- Training and support for Japanese members less familiar with English
 
-##### 主な実績
+##### Key Achievements
 
-要件が決まりきっていない中で、落とし所を見つけてリリースする必要があったため、PdMと対話する機会を通して作りたいものを探り、プロトタイプを作ってイメージを掴み、フロントエンド・バックエンドを改修して機能を追加していきました。
-途中からはスクラムを採用し、チーム外のステークホルダーからも意見を聞きながら開発できました。
-また、英語が得意でないメンバーが多く、社内公用語が英語になる上でそれが障壁になったため、彼・彼女らに学習や会議参加に対するサポートを行いました。
+In a situation where requirements weren't fully defined but release was necessary, I communicated extensively with the Product Manager to clarify the vision, created prototypes to grasp the image, and revamped both frontend and backend to add features.
+Midway through, we adopted Scrum, allowing us to develop while gathering feedback from stakeholders outside the team.
+Also, since many members were not proficient in English, which was becoming a barrier as English became the official internal language, I provided support for their learning and participation in meetings.
 
-### 2021 年 4 月〜 2024 年 6 月 / 株式会社 BuySell Technologies (正社員)
+### April 2021 - June 2024 / BuySell Technologies Co., Ltd. (Full-time)
 
-#### 2023 年 2 月〜 2024 年 6 月 / 在庫管理システムの新規開発・運用
+#### February 2023 - June 2024 / New Development & Operation of Inventory Management System
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                                                                                                                |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 期間       | 2023 年 2 月〜2024 年 6月                                                                                                                  |
-| 担当役割   | フロントエンドリード                                                                                                                |
-| チーム規模 | 7〜10 人 (フロントエンドチームは 2〜4 人)                                                                                           |
-| 利用技術   | React、TypeScript、Vite、Next.js (Pages Router)、Material UI、TanStack Query、Sentry、Open API、GitHub Actions、GCP (Cloud Storage) |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                                                                                                                              |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Period    | February 2023 - June 2024                                                                                                           |
+| Role      | Frontend Lead                                                                                                                       |
+| Team Size | 7 - 10 members (Frontend team: 2 - 4 members)                                                                                       |
+| Stack     | React, TypeScript, Vite, Next.js (Pages Router), Material UI, TanStack Query, Sentry, Open API, GitHub Actions, GCP (Cloud Storage) |
+| Languages | Japanese                                                                                                                            |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンドを軸にした開発・運用のリード
-  - 技術選定
-  - 開発基盤用意
-  - 機能開発の要求や仕様の整理・設計・実装
-  - タスク作成・アサイン
-  - コードレビュー
-  - リリース作業
+- Leading development and operation with a focus on Frontend
+  - Technology selection
+  - Setting up development infrastructure
+  - Requirements gathering, specification design, and implementation of features
+  - Task creation and assignment
+  - Code Review
+  - Release Operations
   - QA
-  - DX(Developer Experience)向上
-    - CI / CD の整備
-    - ローカル開発環境の整備
-  - 障害の一時対応(オンコール対応)
-  - 課題の発見・優先順位づけ
-  - リファクタリング
-  - ブランチ戦略含めた開発フローの設計・改善
-  - パフォーマンス改善
-  - 監視・アラート整備
-- メンバーの教育
-- エンジニア採用 (新卒・中途・業務委託)
-- 社外発信
-  - [開発者の脳内リソースを食い潰さないという観点のフロントエンド設計](https://tech.buysell-technologies.com/entry/adventcalendar2023-12-19)
+  - Improving Developer Experience (DX)
+    - CI/CD setup
+    - Local development environment setup
+  - Incident Response (On-call)
+  - Issue identification and prioritization
+  - Refactoring
+  - Designing and improving development workflows, including branching strategies
+  - Performance Improvement
+  - Monitoring and Alerting setup
+- Member Education
+- Engineer Hiring (New grads, Mid-career, Contractors)
+- External Outreach
+  - [Frontend Design from the Perspective of Not Exhausting Developer's Brain Resources](https://tech.buysell-technologies.com/entry/adventcalendar2023-12-19)
 
-##### 主な実績
+##### Key Achievements
 
-半年程度で 0 から要件定義〜リリースまでをする必要があり、同時に、チーム内のドメインエキスパートや実際に使うユーザーの方々に動いている画面を素早く見せてフィードバックをもらって修正する必要もありました。
-そんな中で、コードベースのメンテナンスのしやすさやバグの少なさを担保するために、VRT や Linter、Formatter を CI / CD を組み込んだり、コマンド 1 つでページ作成に必要なファイルの雛形が生成されるようにしたり、開発者が迷わないようなディレクトリ設計をしたりしました (Atomic Design と Screaming Architecture の併用)。
-結果、半年程度でリリースでき、また、運用している現在も手早くフィードバックをもとに修正することができています。
+We needed to go from requirements definition to release in about half a year from scratch. Simultaneously, we needed to quickly show working screens to domain experts within the team and actual users to get feedback and iterate.
+In this context, to ensure codebase maintainability and minimize bugs, I incorporated VRT, Linters, and Formatters into CI/CD, created commands to generate file templates for page creation with a single command, and designed a directory structure that developers wouldn't get lost in (combining Atomic Design and Screaming Architecture).
+As a result, we were able to release in about half a year, and even now in operation, we can quickly make corrections based on feedback.
 
-#### 2022 年 11 月〜現在 / フロントエンド横断組織の運営
+#### November 2022 - Current / Operation of Frontend Cross-Functional Organization
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                                   |
-| ---------- | ------------------------------------------------------ |
-| 期間       | 2022 年 11 月〜現在                                    |
-| 担当役割   | フロントエンドエンジニア                               |
-| チーム規模 | 4〜8 人                                                |
-| 利用技術   | React、TypeScript、Next.js (Pages Router)、Material UI |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                                                 |
+| --------- | ------------------------------------------------------ |
+| Period    | November 2022 - Current (at the time)                  |
+| Role      | Frontend Engineer                                      |
+| Team Size | 4 - 8 members                                          |
+| Stack     | React, TypeScript, Next.js (Pages Router), Material UI |
+| Languages | Japanese                                               |
 
-##### 業務内容
+##### Responsibilities
 
-- 内定者インターン向けのフロントエンドのカリキュラムの企画・制作
-- 全社向けのフロントエンドのガイドラインの企画・制作
-- フロントエンド横断 MTG の企画・運営
-  - モダンなライブラリの素振りの知見共有
-  - プロダクトのフロントエンドの困りごとの解決
-  - ライブラリの脆弱性について共有
+- Planning and creation of frontend curriculum for prospective intern employees
+- Planning and creation of company-wide frontend guidelines
+- Planning and running frontend cross-functional meetings
+  - Sharing knowledge on trying out modern libraries
+  - Solving frontend issues in products
+  - Sharing information about library vulnerabilities
 
-##### 主な実績
+##### Key Achievements
 
-全社的に今後のフロントエンドの技術スタックを React で統一する方針になったにもかかわらず、内定者インターン向けのカリキュラムは Ruby On Rails を扱うものしかなく、プロダクトチームに配属されるまでのフロントエンドのキャッチアップは各々でやってもらうか、プロダクトチームのフロントエンドエンジニアに委ねられるかという形でした。
-そんな中で、React、TypeScript、Next.js、React Hook Form などを用いて TODO アプリを作るカリキュラムを企画・作成しました。
-内定者インターンの方々にまずこのカリキュラムをやってもらうことによって、おおよそプロダクトチームで求められているフロントエンドの基礎レベルまで引き上げることができました。
-さらに、カリキュラムと合わせて、実装の模範解答も作ったことによって、実際にレビューするエンジニア (大抵は配属先のプロダクトチームのエンジニア)がレビューの際に迷わないで指摘ができるようにもなりました。
+Although there was a company-wide policy to unify the future frontend tech stack with React, the curriculum for prospective interns only covered Ruby on Rails. Catching up on frontend skills until assignment to a product team was left to individuals or the product team's frontend engineers.
+In response, I planned and created a curriculum to build a TODO app using React, TypeScript, Next.js, and React Hook Form.
+By having prospective interns complete this curriculum first, we were able to raise their skills to roughly the basic level required by product teams.
+Furthermore, by creating model implementations alongside the curriculum, engineers reviewing the code (usually engineers from the assigned product team) could encourage feedback without hesitation.
 
-#### 2022 年 10 月〜2023 年 2 月 / 専門査定管理システムの新規開発・運用
+#### October 2022 - February 2023 / New Development & Operation of Professional Appraisal Management System
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                                                                                          |
-| ---------- | ------------------------------------------------------------------------------------------------------------- |
-| 期間       | 2022 年 10 月〜2023 年 2 月                                                                                   |
-| 担当役割   | フルスタックエンジニア                                                                                        |
-| チーム規模 | 4〜7 人                                                                                                       |
-| 利用技術   | React、TypeScript、Next.js (Pages Router)、Material UI、Go、Hasura GraphQL Engine、GCP (Cloud Run、Cloud SQL) |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                                                                                                        |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Period    | October 2022 - February 2023                                                                                  |
+| Role      | Full Stack Engineer                                                                                           |
+| Team Size | 4 - 7 members                                                                                                 |
+| Stack     | React, TypeScript, Next.js (Pages Router), Material UI, Go, Hasura GraphQL Engine, GCP (Cloud Run, Cloud SQL) |
+| Languages | Japanese                                                                                                      |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンドの設計・機能実装
-  - 画面設計・デザイン・機能実装
-  - DX(Developer Experience)向上
-    - CI / CD の整備
-    - ローカル開発環境の整備
-- バックエンドの設計・機能実装
-  - DB・API の仕様整理・設計・実装
-- サブマネージャーとしてマネジメント
-  - タスク作成・アサイン
-  - 課題の発見・優先順位づけ
-  - スクラムイベントの主導
-  - メンバーとの 定期的な 1on1
-- コードレビュー
-- リリース作業
+- Frontend Design and Implementation
+  - Screen design, UI/UX, and feature implementation
+  - Improving Developer Experience (DX)
+    - CI/CD setup
+    - Local development environment setup
+- Backend Design and Implementation
+  - DB/API specification gathering, design, and implementation
+- Management as a Sub-Manager
+  - Task creation and assignment
+  - Issue identification and prioritization
+  - Leading Scrum events
+  - Regular 1-on-1s with members
+- Code Review
+- Release Operations
 - QA
-- 障害の一時対応(オンコール対応)
-- リファクタリング
-- パフォーマンス改善
-- 監視・アラート整備
-- メンバーの教育
+- Incident Response (On-call)
+- Refactoring
+- Performance Improvement
+- Monitoring and Alerting setup
+- Member Education
 
-##### 主な実績
+##### Key Achievements
 
-途中まで開発されたもののリリースはまだしておらず、初期開発に携わったエンジニアがほぼ辞めている状態で、他チームからプロダクトを引き受けたので、コードの負債やドキュメントの不足が目立っていました。
-なので、フロントエンド・バックエンド・インフラでそれぞれ、ざっくりしたコーディングルールを決めて、これから書くコードの体裁を統一するとともに、負債となっているコードのリファクタも並行して主導しました。
-これにより、既存メンバーの開発速度向上・新規参入メンバーのスムーズなジョインが可能になりました。
-また、ADR の執筆を文化として定着させたことで、大きな機能の実装の際に実装の根拠と概要が書かれるようになりました。
+The project had been partially developed but not released, and most initial engineers had left. I took over the product from another team, so technical debt and lack of documentation were prominent.
+Therefore, for frontend, backend, and infrastructure, I established rough coding rules to unify the style of future code and led the refactoring of debt-ridden code in parallel.
+This enabled improved development speed for existing members and smoother onboarding for new members.
+Also, by establishing ADR writing as a culture, the rationale and overview of implementation started to be documented for major feature implementations.
 
-#### 2022 年 6 月〜2023 年 2 月 / 開発合宿の企画・運営
+#### June 2022 - February 2023 / Planning & Operation of Development Camp
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                               |
-| ---------- | ---------------------------------- |
-| 期間       | 2022 年 6 月〜2023 年 2 月         |
-| 担当役割   | 開発合宿ワーキンググループリーダー |
-| チーム規模 | 4 人                               |
-| 利用技術   | Atlassian Confluence               |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                                |
+| --------- | ------------------------------------- |
+| Period    | June 2022 - February 2023             |
+| Role      | Development Camp Working Group Leader |
+| Team Size | 4 members                             |
+| Stack     | Atlassian Confluence                  |
+| Languages | Japanese                              |
 
-##### 業務内容
+##### Responsibilities
 
-- 開発合宿の企画・運営のリード
-  - 開催までのロードマップや日々のタスクの整備なども行った
-  - 当日の総指揮として指示出しを適宜行った
-- 社外発信
-  - [開発合宿の運営のすすめ -初めての開発合宿の計画から実施まで-](https://tech.buysell-technologies.com/entry/2023/03/21/000000)
+- Leading the planning and operation of the development camp
+  - Maintained roadmap to the event and daily tasks
+  - Gave instructions as the general director on the day
+- External Outreach
+  - [Recommendation for Running a Development Camp - From Planning to Execution of the First Development Camp](https://tech.buysell-technologies.com/entry/2023/03/21/000000)
 
-##### 主な実績
+##### Key Achievements
 
-BuySell Technologies ではこれまで開発合宿が一度も開催されたことがなく、知見がありませんでした。
-なので、リーダーとして他社事例を参考にしながら、運営メンバーとの議論を通じて、あるべき合宿の姿をクリアにしていきました。
-開催の目的、予算、参加対象メンバー、スケジュールなど、決めることは山ほどあり、さらにプロダクト開発と並行して進めていかなければならなかったため、骨が折れましたが、参加希望者へのこまめなアンケートや、CTO や部長陣へのヒアリングを通じて方向性をすり合わせていき、当日の運営も乗り切って、無事合宿を成功させることができました。
-結果、参加者の 76％の方が 5 段階中 4 以上の満足度だったと回答し、89％の方が次回も参加したいと回答しました。
-このアンケート結果を踏まえて、合宿の次回開催も確約されています。
+BuySell Technologies had never held a development camp before, and there was no internal knowledge.
+As a leader, referring to examples from other companies and through discussions with operation members, I clarified what the camp should look like.
+There were mountains of things to decide, such as purpose, budget, participants, schedule, etc., and we had to proceed in parallel with product development. It was tough, but through frequent surveys to applicants and hearings with the CTO and department heads, we aligned the direction and successfully managed the event day.
+As a result, 76% of participants answered with a satisfaction level of 4 or higher (out of 5), and 89% answered they would like to participate again.
+Based on this survey result, the next camp has been confirmed.
 
-#### 2022 年 5 月〜2022 年 10 月 / 店舗買取管理システムの新規開発
+#### May 2022 - October 2022 / New Development of Store Purchase Management System
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                                                                                          |
-| ---------- | ------------------------------------------------------------------------------------------------------------- |
-| 期間       | 2022 年 5 月〜2022 年 10 月                                                                                   |
-| 担当役割   | フルスタックエンジニア                                                                                        |
-| チーム規模 | 12 人                                                                                                         |
-| 利用技術   | React、TypeScript、Next.js (Pages Router)、Material UI、Go、Hasura GraphQL Engine、GCP (Cloud Run、Cloud SQL) |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                                                                                                        |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Period    | May 2022 - October 2022                                                                                       |
+| Role      | Full Stack Engineer                                                                                           |
+| Team Size | 12 members                                                                                                    |
+| Stack     | React, TypeScript, Next.js (Pages Router), Material UI, Go, Hasura GraphQL Engine, GCP (Cloud Run, Cloud SQL) |
+| Languages | Japanese                                                                                                      |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンドの設計・機能実装
-  - 画面設計・デザイン・機能実装
-- バックエンドの設計・機能実装
-  - DB・API の仕様整理・設計・実装
-- コードレビュー
+- Frontend Design and Implementation
+  - Screen design, UI/UX, and feature implementation
+- Backend Design and Implementation
+  - DB/API specification gathering, design, and implementation
+- Code Review
 - QA
-- リファクタリング
-- 監視・アラート整備
+- Refactoring
+- Monitoring and Alerting setup
   - Sentry
-- メンバーの教育
+- Member Education
 
-#### 2021 年 7 月〜2022 年 5 月 / 商品マスタ管理システムの新規開発・運用
+#### July 2021 - May 2022 / New Development & Operation of Product Master Management System
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                                                                                                                                           |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 期間       | 2021 年 7 月〜2022 年 5 月                                                                                                                                     |
-| 担当役割   | フルスタックエンジニア                                                                                                                                         |
-| 役割       | メンバー                                                                                                                                                       |
-| チーム規模 | 5〜8 人                                                                                                                                                        |
-| 利用技術   | React、TypeScript、Next.js (Pages Router)、Material UI、Go、Hasura GraphQL Engine、GCP (Cloud Storage, Cloud Run、Cloud SQL、Cloud Function、Cloud Monitoring) |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                                                                                                                                                         |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Period    | July 2021 - May 2022                                                                                                                                           |
+| Role      | Full Stack Engineer                                                                                                                                            |
+| Position  | Member                                                                                                                                                         |
+| Team Size | 5 - 8 members                                                                                                                                                  |
+| Stack     | React, TypeScript, Next.js (Pages Router), Material UI, Go, Hasura GraphQL Engine, GCP (Cloud Storage, Cloud Run, Cloud SQL, Cloud Function, Cloud Monitoring) |
+| Languages | Japanese                                                                                                                                                       |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンドの設計・機能実装
-  - 技術選定
-  - 開発基盤用意
-  - 画面設計・デザイン・機能実装
-- バックエンドの設計・機能実装
-  - DB・API の仕様整理・設計・実装
-  - エラー機構を設計・実装
-- コードレビュー
+- Frontend Design and Implementation
+  - Technology selection
+  - Setting up development infrastructure
+  - Screen design, UI/UX, and feature implementation
+- Backend Design and Implementation
+  - DB/API specification gathering, design, and implementation
+  - Error handling mechanism design and implementation
+- Code Review
 - QA
-- 障害の一時対応(オンコール対応)
-- リファクタリング
-- 監視・アラート整備
+- Incident Response (On-call)
+- Refactoring
+- Monitoring and Alerting setup
   - Datadog
   - Sentry
   - Cloud Monitoring
-- メンバーの教育
-- 社外発信
-  - [Sentry で Go の custom error を stack trace 付きで表示する](https://tech.buysell-technologies.com/entry/adventcalendar2021-12-21)
-  - [新規プロジェクトにインフラ監視ツールを導入した話](https://tech.buysell-technologies.com/entry/adventcalendar2021-12-08)
+- Member Education
+- External Outreach
+  - [Displaying Go custom errors with stack trace in Sentry](https://tech.buysell-technologies.com/entry/adventcalendar2021-12-21)
+  - [Introduction of infrastructure monitoring tools to a new project](https://tech.buysell-technologies.com/entry/adventcalendar2021-12-08)
 
-#### 2021 年 4 月〜2021 年 6 月 / 中古品買取の基幹システムの保守・運用
+#### April 2021 - June 2021 / Maintenance & Operation of Core Second-hand Purchase System
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                       |
-| ---------- | -------------------------- |
-| 期間       | 2021 年 4 月〜2021 年 6 月 |
-| 担当役割   | フルスタックエンジニア     |
-| チーム規模 | 10 人                      |
-| 利用技術   | Vue、 Ruby On Rails        |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                 |
+| --------- | ---------------------- |
+| Period    | April 2021 - June 2021 |
+| Role      | Full Stack Engineer    |
+| Team Size | 10 members             |
+| Stack     | Vue, Ruby on Rails     |
+| Languages | Japanese               |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンド・バックエンドの設計・機能実装
-- コードレビュー
+- Frontend/Backend Design and Implementation
+- Code Review
 - QA
 
-#### 2021 年 4 月〜2021 年 6 月 / ToC 買取アプリの保守・運用
+#### April 2021 - June 2021 / Maintenance & Operation of ToC Purchase App
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                   |
-| ---------- | -------------------------------------- |
-| 期間       | 2021 年 4 月〜2021 年 6 月             |
-| 担当役割   | フルスタックエンジニア                 |
-| チーム規模 | 2 人                                   |
-| 利用技術   | Ruby On Rails、GCP (Kubernetes Engine) |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                                 |
+| --------- | -------------------------------------- |
+| Period    | April 2021 - June 2021                 |
+| Role      | Full Stack Engineer                    |
+| Team Size | 2 members                              |
+| Stack     | Ruby on Rails, GCP (Kubernetes Engine) |
+| Languages | Japanese                               |
 
-##### 業務内容
+##### Responsibilities
 
-- バックエンドの設計・機能実装
-- コードレビュー
+- Backend Design and Implementation
+- Code Review
 - QA
-- データ修正
-- インフラの保守
+- Data Correction
+- Infrastructure Maintenance
 
-### 2020 年 6 月〜2021 年 3 月 / 株式会社 BuySell Technologies (アルバイト)
+### June 2020 - March 2021 / BuySell Technologies Co., Ltd. (Part-time)
 
-#### 2020 年 6 月〜2021 年 3 月 / ToC 買取アプリの保守・運用
+#### June 2020 - March 2021 / Maintenance & Operation of ToC Purchase App
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                                                                                               |
-| ---------- | -------------------------------------------------------------------------------------------------- |
-| 期間       | 2021 年 4 月〜2021 年 6 月                                                                         |
-| 担当役割   | フルスタックエンジニア                                                                             |
-| チーム規模 | 10 人                                                                                              |
-| 利用技術   | Vue、Vuex、JavaScript、TypeScript、Next.js (Pages Router)、Ruby On Rails、 GCP (Kubernetes Engine) |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                                                                                            |
+| --------- | ------------------------------------------------------------------------------------------------- |
+| Period    | June 2020 - March 2021                                                                            |
+| Role      | Full Stack Engineer                                                                               |
+| Team Size | 10 members                                                                                        |
+| Stack     | Vue, Vuex, JavaScript, TypeScript, Next.js (Pages Router), Ruby on Rails, GCP (Kubernetes Engine) |
+| Languages | Japanese                                                                                          |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンド・バックエンドの設計・機能実装
-- コードレビュー
+- Frontend/Backend Design and Implementation
+- Code Review
 - QA
-- リファクタリング
-- データ修正
+- Refactoring
+- Data Correction
 
-### 2019 年 9 月〜2020 年 2 月 / 株式会社 リンクエッジ (インターン)
+### September 2019 - February 2020 / Link Edge Inc. (Internship)
 
-#### アフィリエイト広告のプラットフォームの新規開発 (2019 年 9 月〜2020 年 2 月)
+#### New Development of Affiliate Advertising Platform (September 2019 - February 2020)
 
-##### 概要
+##### Overview
 
-| 項目       | 詳細                       |
-| ---------- | -------------------------- |
-| 期間       | 2019 年 9 月〜2020 年 2 月 |
-| 担当役割   | フルスタックエンジニア     |
-| チーム規模 | 4 人                       |
-| 利用技術   | Ruby On Rails、jQuery      |
-| コミュニケーション言語 | 日本語 |
+| Item      | Detail                         |
+| --------- | ------------------------------ |
+| Period    | September 2019 - February 2020 |
+| Role      | Full Stack Engineer            |
+| Team Size | 4 members                      |
+| Stack     | Ruby on Rails, jQuery          |
+| Languages | Japanese                       |
 
-##### 業務内容
+##### Responsibilities
 
-- フロントエンド・バックエンドの機能実装
-- コードレビュー
+- Implementation of Frontend/Backend features
+- Code Review
 
-## 自己 PR
+## Key Strengths
 
-プロダクト品質を高く保ちながら迅速にチーム開発を行うことに意識を高く持っています。
+I am highly conscious of maintaining high product quality while rapidly conducting team development.
 
-開発では、以下の工夫をしています。
+In development, I implement the following measures:
 
-- plugin とカスタムルールをふんだんに盛り込んだ Linter と Formatter を CI に組み込む
-- 単体テストを基本書くようにし、CI に組み込む
-- 開発に必要なファイル群をコマンド 1 発で生成できるように
-- メンバーと議論してコーディングガイドを制定し、ガイドに沿っていないものは基本レビューしない方針にする
+- Incorporating Linters and Formatters packed with plugins and custom rules into CI.
+- Making sure to write unit tests basically and incorporating them into CI.
+- Enabling the generation of necessary file groups for development with a single command.
+- Establishing coding guides through discussion with members and adopting a policy of generally not reviewing code that does not follow the guide.
 
-これにより、ジョインしたてのインターン生でもすぐにルールに沿ったコードを書くことができるようになり、その PR を見るレビュー工数も毎回 5〜10 分程度で賄えていました。
+As a result, even newly joined interns can immediately write code that follows the rules, and the review effort for their PRs has been kept to about 5-10 minutes each time.
 
-## 業務外活動
+## Extracurricular Activities
 
-### OSS 活動
+### OSS Activities
 
-コミュニティへの貢献や技術的関心、さらに世界中のエンジニアと関わりたい思いから、いくつかの OSS にコントリビュートしています。
+I contribute to several OSS projects out of a desire to contribute to the community, technical interest, and to interact with engineers around the world.
 
-OSS 活動のリンク: <https://github.com/pulls?q=author%3Akazizi55+archived%3Afalse+-org%3Akazizi55+>
+OSS Activity Link: <https://github.com/pulls?q=author%3Akazizi55+archived%3Afalse+-org%3Akazizi55+>
 
 - [Valibot](https://valibot.dev/)
-  - email メソッドなどのバグ修正
-  - ドキュメントの拡充
+  - Bug fixes such as email method
+  - Expansion of documentation
 - [TypeScript ESLint](https://typescript-eslint.io/)
-  - Good First Issue ラベルのついた issue に着手
-    - バグ修正
-    - テスト拡充
-  - アウトプット
-    - [OSS コミットのすすめ - TypeScript ESLint を事例に](https://tech.buysell-technologies.com/entry/adventcalendar2022-12-17)
+  - Worked on issues labeled Good First Issue
+    - Bug fixes
+    - Test expansion
+  - Output
+    - [Recommendation for OSS Commits - Utilizing TypeScript ESLint as a Case Study](https://tech.buysell-technologies.com/entry/adventcalendar2022-12-17)
 
-### 登壇
+### Speaking
 
-- [スクラムフェス金沢 2025](https://www.scrumfestkanazawa.org/)
-  - [「実体」で築く共通認識: 開発現場のコミュニケーション最適化](https://speakerdeck.com/kazizi55/lets-get-on-the-same-page-with-concrete-artifacts-optimization-of-communication-in-dev-teams)
-- [【GENDA x ゼスト x バイセル】フロントエンド勉強会](https://buysell-technologies.connpass.com/event/274923/)
-  - [Post Zod - Valibot の紹介](https://speakerdeck.com/kazizi55/post-zod-valibotnoshao-jie)
+- [Scrum Fest Kanazawa 2025](https://www.scrumfestkanazawa.org/)
+  - [Building Common Understanding with "Concrete Artifacts": Optimization of Communication in Dev Teams](https://speakerdeck.com/kazizi55/lets-get-on-the-same-page-with-concrete-artifacts-optimization-of-communication-in-dev-teams)
+- [【GENDA x ZEST x BuySell】Frontend Study Session](https://buysell-technologies.connpass.com/event/274923/)
+  - [Post Zod - Introduction to Valibot](https://speakerdeck.com/kazizi55/post-zod-valibotnoshao-jie)
 
-## スキル
+## Skills
 
-### プログラミング系
+### Programming
 
-※ 実務経験基準
+\*Based on practical experience
 
-| 経験年数 | スキル                              |
-| -------- | ----------------------------------- |
-| 0-1 年   | Vue、Python                         |
-| 1-2 年   | Ruby On Rails、Go、GraphQL          |
-| 2-3 年   | GCP、Terraform、Next.js、PostgreSQL |
-| 3-4 年   | TypeScript、JavaScript、React       |
+| Years of Experience | Skill                               |
+| ------------------- | ----------------------------------- |
+| 0-1 Years           | Vue, Python                         |
+| 1-2 Years           | Ruby on Rails, Go, GraphQL          |
+| 2-3 Years           | GCP, Terraform, Next.js, PostgreSQL |
+| 3-4 Years           | TypeScript, JavaScript, React       |
 
-#### 備考
+#### Notes
 
-- Google Cloud Professional Cloud Architect の認定資格を保持 ([証明書](https://www.credential.net/c79048ba-7f99-4585-913f-291ff2668d83?項目=13204e662bf643a2937d10029111d37611569d01c3b8017dd57e3bd8ebcad9bb))
+- Hold Google Cloud Professional Cloud Architect certification ([Certificate](https://www.credential.net/c79048ba-7f99-4585-913f-291ff2668d83?項目=13204e662bf643a2937d10029111d37611569d01c3b8017dd57e3bd8ebcad9bb))
 
-### ビジネス系
+### Business
 
-- 簿記3級
+- Bookkeeping Level 3 (Nissho Boki)
 
-### 自然言語
+### Languages
 
-| 言語名 | レベル                                     | 保有資格                                                                                                                         | 資格取得年 |
-| ------ | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| 日本語 | ネイティブ                                 |                                                                                                                                  |            |
-| 英語   | ビジネス (実務経験あり) | TOEIC 855 点 ([証明書](https://iibc.cloudcerts.jp/viewer/cert/5aJemlWBgNAqgu68NgOA5VmIbVAVQ8JRRVMrmrqBRGqrGC6QY8agvbOfv88lAWpX)) | 2024       |
+| Language | Level                      | Certification                                                                                                                      | Year |
+| -------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| Japanese | Native                     |                                                                                                                                    |      |
+| English  | Business (Work Experience) | TOEIC 855 ([Certificate](https://iibc.cloudcerts.jp/viewer/cert/5aJemlWBgNAqgu68NgOA5VmIbVAVQ8JRRVMrmrqBRGqrGC6QY8agvbOfv88lAWpX)) | 2024 |
 
-## 学歴
+## Education
 
-| 年月              | 学歴                                           |
-| ----------------- | ---------------------------------------------- |
-| 2016.03           | 栃木県立石橋高校普通科 卒業                    |
-| 2016.04 - 2021.03 | 上智大学総合グローバル学部 卒業 (国際政治学士) |
-| 2024.06 -         | University of the People Computer Science 入学 |
+| Date                | Education                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------------------- |
+| Mar 2016            | Graduated from Tochigi Prefectural Ishibashi High School                                          |
+| Apr 2016 - Mar 2021 | Graduated from Sophia University, Faculty of Global Studies (Bachelor of International Relations) |
+| Jun 2024 -          | Entered University of the People, Computer Science                                                |
 
-## 性格
+## Personality
 
-### [ENFJ / 主人公](https://www.16personalities.com/ja/enfj%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC)
+### [ENFJ / Protagonist](https://www.16personalities.com/enfj-personality)
 
-> 理想主義で思いやりがあるので、他の人たち、そして世の中に良い影響をもたらすよう努めるタイプです。
-> 友人や愛する人が最高の人間になるよう導くことに、とてつもなく大きな喜びとやりがいを主人公は感じるのです。
+> Protagonists are inspiring optimists, readily taking action to do what they feel is right.
+> They take great pride and joy in guiding friends and loved ones to become their best selves.
