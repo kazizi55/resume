@@ -33,6 +33,40 @@ Previously, I worked at BuySell Technologies Co., Ltd. from April 2021 to Februa
 
 ### July 2024 - Present / Money Forward, Inc. (Full-time)
 
+#### March 2026 - Present / New Development of Reconciliation Service
+
+##### Overview
+
+| Item      | Detail                                                                     |
+| --------- | -------------------------------------------------------------------------- |
+| Period    | March 2026 - Present                                                       |
+| Role      | Backend Engineer (Tech Lead)                                               |
+| Team Size | 8 - 10 members                                                             |
+| Stack     | Go (REST server), Kafka, CircleCI, AWS                                     |
+| Languages | English, Japanese                                                          |
+
+##### Responsibilities
+
+- Backend/Infrastructure design and implementation
+  - Technology selection
+  - DB design
+  - Setting up development infrastructure
+  - Requirements gathering, specification design, and implementation of features
+  - Improving Developer Experience (DX)
+    - CI/CD setup
+    - Local development environment setup
+- Management as a Tech Lead
+  - Task creation and assignment
+  - Issue identification and prioritization
+- Code Review
+- Designing and improving development workflows, including branching strategies
+- Refactoring
+
+##### Key Achievements
+
+- Led the technology selection, directory structure design, and coding rule establishment for the backend. Additionally, I work closely with PdMs and the business side to refine requirements, elaborate domain models, and adjust release scopes.
+- As I collaborate with members in the Vietnam office, development is conducted almost entirely in English.
+
 #### November 2024 - Present / New Development of Accounting Peripheral Systems
 
 ##### Overview
@@ -41,7 +75,7 @@ Previously, I worked at BuySell Technologies Co., Ltd. from April 2021 to Februa
 | --------- | -------------------------------------------------------------------------- |
 | Period    | November 2024 - Present                                                    |
 | Role      | Full Stack Engineer                                                        |
-| Team Size | 8 - 10 members                                                             |
+| Team Size | 8 - 15 members                                                             |
 | Stack     | React, TypeScript, React Router V7, Go (gRPC server), Kafka, CircleCI, AWS |
 | Languages | English, Japanese                                                          |
 
@@ -453,7 +487,7 @@ OSS Activity Link: <https://github.com/pulls?q=author%3Akazizi55+archived%3Afals
 | ------------------- | ------------------------------------------------------------------------------------------------- |
 | Mar 2016            | Graduated from Tochigi Prefectural Ishibashi High School                                          |
 | Apr 2016 - Mar 2021 | Graduated from Sophia University, Faculty of Global Studies (Bachelor of International Relations) |
-| Jun 2024 -          | Entered University of the People, Computer Science                                                |
+| Jun 2024 - Jun 2026 | Graduated from University of the People, Computer Science                                         |
 
 ## Personality
 
