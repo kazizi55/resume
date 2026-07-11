@@ -1,10 +1,12 @@
 {
   "name": "resume",
   "scripts": {
-    "gen:pdf": "md-to-pdf pdf/README-short.md --body-class markdown-body"
+    "gen:pdf": "node gen-pdf.js README.md && node gen-pdf.js README-ja.md"
   },
   "author": "kazizi55",
-  "dependencies": {
-    "md-to-pdf": "^5.2.4"
+  "devDependencies": {
+    "github-markdown-css": "^5.9.0",
+    "marked": "^18.0.6",
+    "puppeteer": "^25.3.0"
   }
 }
